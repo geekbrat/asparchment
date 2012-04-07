@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+body,td,th {
+	color: #000;
+	margin: 0px;
+	padding: 5px;
+	width: auto;
+	position: relative;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	border: 3px none #036;
+}
+body {
+	background-color: #F3EAC3;
+	position: static;
+	height: auto;
+	width: auto;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	text-align: left;
+	background-image: url(369.jpg);
+}
+a:link {
+	color: #30C;
+}
+a:visited {
+	color: #30C;
+}
+a:hover {
+	color: #60F;
+}
+a:active {
+	color: #60F;
+}
+#Main {
+	color: #300;
+	background-color: #FF9;
+	padding: 5px;
+	height: auto;
+	border: 2px outset #006;
+	position: relative;
+	visibility: visible;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}
+#Main #Main.Inner p {
+	color: #00C;
+	background-color: #09F;
+	padding: 5px;
+	border: 3px outset #006;
+	position: relative;
+	height: auto;
+	width: auto;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+}
+.doc {
+	width:95%;
+	color: #006;
+	height: auto;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	padding: 25px;
+	position: relative;
+	border: 1px outset #006;
+	margin: auto;
+	background-image: url(s11.png);
+	behavior: url(/border-radius.htc);
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.doc2 {
+	width:75%
+	color: #006;
+	height: auto;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	padding: 25px;
+	position: relative;
+	border: 1px outset #006;
+	margin: auto;
+	background-image: url(s11.png);
+    behavior: url(/border-radius.htc);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+.docnews {
+	width:95%;
+	color: #006;
+	height: auto;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	padding: 25px;
+	position: relative;
+	border: 1px outset #006;
+	margin: auto;
+	background-image: url(s11.png);
+	behavior: url(/border-radius.htc);
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	font-family: "Comic Sans MS", cursive;
+}
+
+.rounded-corners-ie {
+	behavior: url(/border-radius.htc);
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: inset;
+	border: 1px inset #aa8;
+	background-image: url(s11y2.png);
+	color: #006;
+	margin: 10px 5px 10px 5px;
+	padding: 5px 15px 5px 20px;
+}
+.rounded-corners-menu {
+	behavior: url(/border-radius.htc);
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: inset;
+	border: 1px inset #aa8;
+	background-image: url(s11y2.png);
+	color: #006;
+	margin: 10px 5px 10px 5px;
+	padding: 5px;
+}
+
+.rounded-corners-all {
+     -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+#box h3 {
+	text-align: left;
+}
+</style>
+.tech-row {
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #009;
+}
+.tech-col {
+	border-right-width: 1px;
+	border-right-style: inset;
+	border-right-color: #009;
+}

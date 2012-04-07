@@ -1,0 +1,191 @@
+/*
+This rule defines the positining and dimensions of the main layout div. It SHOULD NOT BE MODIFIED by hand.
+*/
+div.AllStoryIndex{
+	margin-right:auto;
+	margin-left:auto;
+	position:static;
+	width:95%;
+	min-width:800px;
+	max-width:1600px;
+}
+/*
+Body CSS rules start
+
+This section holds the CSS rules for the HTML body and may also contain general typography definitions. Although it is recomended that you do all the editing with the Flexi CSS Layouts Editor, you may change any property that is not a dimension. (Don't change things like 230px, 20% or 14em)
+*/
+.AllStoryIndex_body_design{
+	background-color:transparent;
+	background-attachment:scroll;
+	background-repeat:repeat;
+	background-position:left top;
+	background-image:url('../../369.jpg');
+	margin:0px;
+	padding:0px;
+}
+
+/*Body CSS rules end*/
+
+/*
+Container Boxes design CSS rules start
+
+In this section are found design rules for the Boxes that are used as containers for other Boxes. Styles defined here are applied on all the container's respective children. Although it is recomended that you do all the editing with the Flexi CSS Layouts Editor, you may change any property that is not a dimension. (Don't change things like 230px, 20% or 14em)
+*/
+div.cssLO .AllStoryIndex_wrapper_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:850px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:850px;
+}
+
+div.cssLO .AllStoryIndex_row_1_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:550px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:550px;
+}
+
+div.cssLO .AllStoryIndex_column_2_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:550px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:550px;
+}
+
+div.cssLO .AllStoryIndex_row_4_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:400px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:400px;
+}
+
+div.cssLO .AllStoryIndex_column_3_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:400px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:400px;
+}
+
+/*Container Boxes design CSS rules end*/
+
+/*
+Content Boxes design CSS rules start
+
+This section holds the CSS rules for the content Boxes. The content Boxes are divs that will hold the page content (text, images etc., but not other Flexi CSS Layouts Boxes). You may also find typography rules here. If you want to check or change any CSS property you will probably find it here. Although it is recomended that you do all the editing with the Flexi CSS Layouts Editor, you may change any property that is not a dimension. (Don't change things like 230px, 20% or 14em)
+*/
+div.cssLO .AllStoryIndex_column_1_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:300px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:300px;
+}
+
+div.cssLO .AllStoryIndex_row_3_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:150px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:150px;
+}
+
+div.cssLO .AllStoryIndex_column_4_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:400px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:400px;
+}
+
+div.cssLO .AllStoryIndex_column_5_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:400px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:400px;
+}
+
+div.cssLO .AllStoryIndex_row_2_design{
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+	min-height:100px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+	height:auto !important;
+	height:100px;
+}
+
+/*Content Boxes design CSS rules end*/
+
+/*
+Layout CSS rules start
+
+This section contains layout rules that handle the positioning and dimensions of each layout element. Please DO NOT MODIFY this by hand!
+*/
+.AllStoryIndex_wrapper_layout{
+	width:100%;
+}
+
+.AllStoryIndex_row_1_layout{
+	width:100%;
+	margin-right:auto;
+}
+
+.AllStoryIndex_column_1_layout{
+	width:25%;
+}
+
+.AllStoryIndex_column_2_layout{
+	width:75%;
+	margin-right: -1px;/*IE6 and IE7 make inconsistent approximations when dealing with percentual widths and sometimes there will be extra space visible. This rule prevents that.*/
+}
+
+html>body .AllStoryIndex_column_2_layout{
+	margin-right:0}
+
+.AllStoryIndex_row_3_layout{
+	width:100%;
+	margin-right:auto;
+}
+
+.AllStoryIndex_row_4_layout{
+	width:100%;
+	margin-right:auto;
+}
+
+.AllStoryIndex_column_3_layout{
+	width:100%;
+}
+
+.AllStoryIndex_column_4_layout{
+	margin-left:0 !important;
+	margin-right:33% !important;
+	float:none;/*This and the margin-left and margin-right above are the code necesary for creating a liquid column.*/
+}
+
+.AllStoryIndex_column_5_layout{
+	width:33%;
+	float:right;
+	margin-left: 0px !important;
+	margin-left: -3px;/*This is a known issue with IE6. The browser leaves 3px margins near floating divs. These two rules come to prevent that.*/
+}
+
+.AllStoryIndex_row_2_layout{
+	width:100%;
+	margin-right:auto;
+}
+
+/*Layout CSS rules end*/
