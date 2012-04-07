@@ -81,11 +81,11 @@ a:active {
 	border: 1px outset #006;
 	margin: auto;
 	background-image: url(s11.png);
-	behavior: url(/asparchment/border-radius.htc);
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
 	border-radius: 20px;
+	behavior: url(border-radius.htc);
 }
 
 .doc2 {
@@ -101,7 +101,7 @@ a:active {
 	border: 1px outset #006;
 	margin: auto;
 	background-image: url(s11.png);
-    behavior: url(/asparchment/border-radius.htc);
+    behavior: url(border-radius.htc);
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20px;
@@ -120,7 +120,7 @@ a:active {
 	border: 1px outset #006;
 	margin: auto;
 	background-image: url(s11.png);
-	behavior: url(/asparchment/border-radius.htc);
+	behavior: url(border-radius.htc);
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
@@ -129,20 +129,20 @@ a:active {
 }
 
 .rounded-corners-ie {
-	behavior: url(/asparchment/border-radius.htc);
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	-khtml-border-radius: 20px;
-	border-radius: 20px;
 	box-shadow: solid;
 	border: 1px solid #aa8;
 	background-image: url(s11y2.png);
 	color: #006;
 	margin: 10px 5px 10px 5px;
 	padding: 5px 15px 5px 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	behavior: url(border-radius.htc);
 }
 .rounded-corners-menu {
-	behavior: url(/asparchment/border-radius.htc);
+	behavior: url(border-radius.htc);
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
@@ -154,6 +154,22 @@ a:active {
 	margin: 10px 5px 10px 5px;
 	padding: 5px;
 }
+
+.box1 {
+	background-color: #f0f0f0;
+	width: 533px;
+	height: 50px;
+	margin: 0 auto 15px auto;
+	padding: 30px;
+	border: 1px solid #d7d7d7;
+ 
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	behavior: url(border-radius.htc);
+}
+ 
+
 
 .rounded-corners-all {
      -moz-border-radius: 20px;
