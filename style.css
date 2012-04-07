@@ -134,8 +134,8 @@ a:active {
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
 	border-radius: 20px;
-	box-shadow: inset;
-	border: 1px inset #aa8;
+	box-shadow: solid;
+	border: 1px solid #aa8;
 	background-image: url(s11y2.png);
 	color: #006;
 	margin: 10px 5px 10px 5px;
@@ -147,8 +147,8 @@ a:active {
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
 	border-radius: 20px;
-	box-shadow: inset;
-	border: 1px inset #aa8;
+	box-shadow: solid;
+	border: 1px solid #aa8;
 	background-image: url(s11y2.png);
 	color: #006;
 	margin: 10px 5px 10px 5px;
@@ -168,11 +168,11 @@ a:active {
 </style>
 .tech-row {
 	border-bottom-width: 1px;
-	border-bottom-style: inset;
+	border-bottom-style: solid;
 	border-bottom-color: #009;
 }
 .tech-col {
 	border-right-width: 1px;
-	border-right-style: inset;
+	border-right-style: solid;
 	border-right-color: #009;
 }
