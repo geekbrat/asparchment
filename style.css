@@ -81,7 +81,7 @@ a:active {
 	border: 1px outset #006;
 	margin: auto;
 	background-image: url(s11.png);
-	behavior: url(/border-radius.htc);
+	behavior: url(border-radius.htc);
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
@@ -101,7 +101,7 @@ a:active {
 	border: 1px outset #006;
 	margin: auto;
 	background-image: url(s11.png);
-    behavior: url(/border-radius.htc);
+    behavior: url(border-radius.htc);
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20px;
@@ -120,7 +120,7 @@ a:active {
 	border: 1px outset #006;
 	margin: auto;
 	background-image: url(s11.png);
-	behavior: url(/border-radius.htc);
+	behavior: url(border-radius.htc);
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
@@ -129,7 +129,7 @@ a:active {
 }
 
 .rounded-corners-ie {
-	behavior: url(/border-radius.htc);
+	behavior: url(border-radius.htc);
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
@@ -142,7 +142,7 @@ a:active {
 	padding: 5px 15px 5px 20px;
 }
 .rounded-corners-menu {
-	behavior: url(/border-radius.htc);
+	behavior: url(border-radius.htc);
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-khtml-border-radius: 20px;
