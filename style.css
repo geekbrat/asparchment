@@ -10,6 +10,7 @@
 	width:95%;
 	min-width:800px;
 	max-width:1600px;
+/*	width:expression(document.body.clientWidth > 1600? "1600px": "auto" ); */
 }
 
 /*
@@ -199,7 +200,4 @@ a:active {
 	border-right-width: 1px;
 	border-right-style: solid;
 	border-right-color: #009;
-}.main {
-	height: 1px;
-	width: 1px;
 }
