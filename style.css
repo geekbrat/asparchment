@@ -2,6 +2,17 @@
 /* CSS Document */
 
 <style type="text/css">
+
+.main{
+	margin-right:auto;
+	margin-left:auto;
+	position:static;
+	width:95%;
+	min-width:800px;
+	max-width:1600px;
+}
+
+/*
 body,td,th {
 	color: #000;
 	margin: 0px;
@@ -14,6 +25,7 @@ body,td,th {
 	bottom: auto;
 	border: 3px none #036;
 }
+*/
 body {
 	background-color: #F3EAC3;
 	position: static;
@@ -187,4 +199,7 @@ a:active {
 	border-right-width: 1px;
 	border-right-style: solid;
 	border-right-color: #009;
+}.main {
+	height: 1px;
+	width: 1px;
 }
