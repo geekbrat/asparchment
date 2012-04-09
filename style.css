@@ -7,10 +7,10 @@
 	margin-right:auto;
 	margin-left:auto;
 	position:static;
+	width: auto !important;
 	width:95%;
 	min-width:800px;
 	max-width:1600px;
-/*	width:expression(document.body.clientWidth > 1600? "1600px": "auto" ); */
 }
 
 /*
