@@ -4,9 +4,7 @@
 <style type="text/css">
 
 .main{
-	margin-right:auto;
-	margin-left:auto;
-	position:static;
+	margin: 0 auto;
 	width: auto !important;
 	width:95%;
 	min-width:800px;
