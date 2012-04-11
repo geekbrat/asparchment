@@ -176,6 +176,10 @@ a:active {
 	border-radius: 11px;
 	behavior: url(border-radius.htc);
 }
+
+#box1 h1, h2, h3, h4 {
+	color: #3B8DCD;
+}
  
 
 
@@ -199,4 +203,7 @@ a:active {
 	border-right-width: 1px;
 	border-right-style: solid;
 	border-right-color: #009;
+}
+.Blue {
+	color: #3B8DCD;
 }
