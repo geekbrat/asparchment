@@ -5,6 +5,7 @@
 
 .main{
 	margin: 0 auto;
+	position: relative;
 	width: auto !important;
 	width:95%;
 	min-width:800px;
