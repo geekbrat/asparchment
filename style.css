@@ -5,9 +5,10 @@
 
 .main{
 	margin: 0 auto;
-	position: relative;
 	width: auto !important;
-	width:95%;
+	width:94%;
+	margin-right: auto;
+	margin-left: auto;
 	min-width:800px;
 	max-width:1600px;
 }
@@ -49,36 +50,6 @@ a:hover {
 }
 a:active {
 	color: #60F;
-}
-#Main {
-	color: #300;
-	background-color: #FF9;
-	padding: 5px;
-	height: auto;
-	border: 2px outset #006;
-	position: relative;
-	visibility: visible;
-	top: auto;
-	right: auto;
-	bottom: auto;
-	left: auto;
-	margin-top: 20px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 40px;
-}
-#Main #Main.Inner p {
-	color: #00C;
-	background-color: #09F;
-	padding: 5px;
-	border: 3px outset #006;
-	position: relative;
-	height: auto;
-	width: auto;
-	left: auto;
-	top: auto;
-	right: auto;
-	bottom: auto;
 }
 .doc {
 	width:95%;
